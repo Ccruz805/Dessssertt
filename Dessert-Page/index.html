@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en" class="background">
+
+<head>
+  <meta charset="utf-8" />
+  <title>CC's Sweets</title>
+  <link rel="icon" type="image/x-icon" href="cupcake.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+
+<body class="body">
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">
+      <img src="cupcake.png" width="50" height="50" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Recipes.html">Recipes</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+
+
+        <li class="nav-item">
+          <a class="nav-link" href="about-us.html">About Us</a>
+        </li>
+
+
+
+
+      </ul>
+
+
+    </div>
+
+
+  </nav>
+
+
+
+
+  <div class="top">
+    <div>
+
+      <h1>CC's Sweets</h1>
+
+    </div>
+    <div>
+      <img class="cover" src="cover.jpeg" alt="cover">
+    </div>
+    <div>
+      <p class="intro">
+
+        Welcome to CC's Sweets! Here at CC's Sweets our goal is to dish out the best recipes for the best desserts. From scrumptious cookies to mouthwatering cakes we provide recipes for any occasion.
+      </p>
+    </div>
+
+  </div>
+
+
+  <section class="py-5 text-center container second-station">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h2 class="fw-light">Our Recipes</h2>
+        <p class="lead text-muted">Here are our favorite recipes. Each recipe has been handpicked by a staff member and each member can gurantee that these recipes will leave you shocked by how delicious they are.</p>
+        <p>
+          <a href="Recipes.html" class="btn btn-primary my-2">Our Recipes</a>
+          <a href="Contact.html" class="btn btn-secondary my-2">Contact Us</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+
+        <div class="col">
+
+          <form id="form-1">
+            <h1>Rate our Recipe</h1>
+
+            <br> <br>
+            <b>Rating out of 10:</b>
+            <select name="rating">
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</option>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
+            <br><br>
+                <b>Would you try this recipe again</b>
+                <select option="yORn">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+
+                </select>
+            <br><br>
+            <b>Feedback:</b>
+            <br>
+            <textarea name="feedback">
+
+            </textarea>
+            <br><br>
+            <button type="button" id="submit-1">Submit</button>
+          </form>
+
+          <div class="card shadow-sm">
+
+            <div id="recipe-1" class="card-body">
+              <h3>Choco-Strawberry Muffins</h3>
+              <img src="Recipe-1.webp" width="250" height="250" alt="" class="card-img-top">
+              <p class="card-text">Enjoy soft and fluffy strawberry muffins with chocolate chips and a chocolate drizzle on top.</p>
+              <ul>
+                <li>
+                  2 cups (250g) all-purpose flour (spoon & leveled)
+                </li>
+                <li>
+                  1 and 1/2 teaspoons baking powder
+                </li>
+                <li>
+                  1/2 teaspoon baking soda
+                </li>
+                <li>
+                  1/2 teaspoon salt
+                </li>
+                <li>
+                  1 large egg, at room temperature
+                </li>
+                <li>
+                  3/4 cup (150g) granulated sugar
+                </li>
+                <li>
+                  5 Tablespoons (72g) unsalted butter, melted and slightly cooled
+                </li>
+                <li>
+                  See full recipe for more...
+                </li>
+
+              </ul>
+
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <button type="button" id="formButton-1" class="btn btn-sm btn-outline-secondary">Rate it</button>
+                </div>
+
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+
+          <form id="form-2">
+            <h1>Rate our Recipe</h1>
+
+            <br> <br>
+            <b>Rating out of 10:</b>
+            <select name="rating">
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</option>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
+            <br><br>
+                <b>Would you try this recipe again</b>
+                <select option="yORn">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+
+                </select>
+            <br><br>
+            <b>Feedback:</b>
+            <br>
+            <textarea name="feedback">
+
+            </textarea>
+            <br><br>
+            <button type="button" id="submit-2">Submit</button>
+          </form>
+
+          <div class="card shadow-sm">
+
+            <div id="recipe-2" class="card-body">
+              <h3>Choco-Chip Cran Cookies</h3>
+              <img src="Recipe-2.webp" width="250" height="250" alt="" class="card-img-top">
+              <p class="card-text">You’ll love these white chocolate chip cranberry cookies because they’re soft-baked, wonderfully chewy, have extra vanilla, plus they combine sweet white chocolate morsels with tart dried cranberries.</p>
+              <ul>
+                <li>
+3/4 cup (1.5 sticks to 170g) unsalted butter, softened to room temperature
+                </li>
+                <li>
+3/4 cup (150g) packed light or dark brown sugar (I use dark)
+                </li>
+                <li>
+1/4 cup (50g) granulated sugar
+                </li>
+                <li>
+1 large egg, at room temperature
+                </li>
+                <li>
+2 teaspoons pure vanilla extract
+                </li>
+                <li>
+See full recipe for more...
+                </li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <button type="button" id="formButton-2" class="btn btn-sm btn-outline-secondary">Rate it</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+
+          <form id="form-3">
+            <h1>Rate our Recipe</h1>
+
+            <br> <br>
+            <b>Rating out of 10:</b>
+            <select name="rating">
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</option>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
+            <br><br>
+                <b>Would you try this recipe again</b>
+                <select option="yORn">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+
+                </select>
+            <br><br>
+            <b>Feedback:</b>
+            <br>
+            <textarea name="feedback">
+
+            </textarea>
+            <br><br>
+            <button type="button" id="submit-3">Submit</button>
+          </form>
+
+          <div class="card shadow-sm">
+
+            <div id="recipe-3" class="card-body">
+              <h3>Fudge Brownie Pie</h3>
+              <img src="Recipe-3.webp" width="250" height="250" alt="" class="card-img-top">
+              <p class="card-text">Enjoy a slice of rich chocolate brownie baked and served in a flaky pie crust.</p>
+              <ul>
+
+                <li>
+                  1 unbaked Flaky Pie Crust (what I used) or All Butter Pie Crust*
+
+                </li>
+
+                <li>
+1 large egg white, lightly beaten
+                </li>
+
+                <li>
+1/2 cup (115g; 1 stick) unsalted butter
+                </li>
+                <li>
+2 Tablespoons (30ml) vegetable oil or melted coconut oil
+                </li>
+                <li>
+1 cup (200g) granulated sugar
+                </li>
+                <li>
+                  3/4 cup (135g) semi-sweet chocolate chips
+                </li>
+                <li>
+                  3/4 cup (100g) chopped walnuts
+
+                </li>
+
+                <li>
+See full recipe for more...
+                </li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <button type="button" id="formButton-3" class="btn btn-sm btn-outline-secondary">Rate it</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+
+          <form id="form-4">
+            <h1>Rate our Recipe</h1>
+
+            <br> <br>
+            <b>Rating out of 10:</b>
+            <select name="rating">
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</option>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
+            <br><br>
+                <b>Would you try this recipe again</b>
+                <select option="yORn">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+
+                </select>
+            <br><br>
+            <b>Feedback:</b>
+            <br>
+            <textarea name="feedback">
+
+            </textarea>
+            <br><br>
+            <button type="button" id="submit-4">Submit</button>
+          </form>
+
+          <div class="card shadow-sm">
+
+            <div id="recipe-4" class="card-body">
+              <h3>Apple Cinnamon Bread</h3>
+              <img src="Recipe-4.jpeg" width="250" height="250" alt="" class="card-img-top">
+              <p class="card-text">This apple cinnamon bread is buttery moist and cake-like with plenty of apples dotted in each slice. </p>
+              <ul>
+                <li>
+1 and 1/2 cups (165g) peeled & chopped apples (1/2 inch chunks; you need about 2 medium apples)
+                </li>
+                <li>
+                  1/3 cup (67g) packed light or dark brown sugar
+
+                </li>
+                <li>
+1 and 3/4 cups (219g) all-purpose flour (spoon & leveled)
+                </li>
+                <li>
+1 teaspoon ground cinnamon
+                </li>
+                <li>
+1/2 teaspoon ground nutmeg
+                </li>
+                <li>
+See full recipe for more...
+                </li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <button type="button" id="formButton-4" class="btn btn-sm btn-outline-secondary">Rate it</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+
+          <form id="form-5">
+            <h1>Rate our Recipe</h1>
+
+            <br> <br>
+            <b>Rating out of 10:</b>
+            <select name="rating">
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</option>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
+            <br><br>
+                <b>Would you try this recipe again</b>
+                <select option="yORn">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+
+                </select>
+            <br><br>
+            <b>Feedback:</b>
+            <br>
+            <textarea name="feedback">
+
+            </textarea>
+            <br><br>
+            <button type="button" id="submit-5">Submit</button>
+          </form>
+
+          <div class="card shadow-sm">
+
+            <div id="recipe-5" class="card-body">
+              <h3>Rainbow M&M Cookies</h3>
+              <img src="Recipe-5.webp" width="250" height="250" alt="" class="card-img-top">
+              <p class="card-text">These rainbow M&M cookies are soft-baked style with extra chewy edges. I recommend mini M&Ms so you can pack more into each cookie.</p>
+              <ul>
+                <li>
+                  2 cups + 2 Tablespoons (265g) all-purpose flour (spoon & leveled)
+
+                </li>
+                <li>
+1 teaspoon cornstarch
+                </li>
+                <li>
+1 teaspoon baking soda
+                </li>
+                <li>
+1/2 teaspoon salt
+                </li>
+                <li>
+3/4 cup (1.5 sticks or 170g) unsalted butter, softened to room temperature
+                </li>
+                <li>
+See full recipe for more...
+                </li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <button type="button" id="formButton-5" class="btn btn-sm btn-outline-secondary">Rate it</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+
+          <form id="form-6">
+            <h1>Rate our Recipe</h1>
+
+            <br> <br>
+            <b>Rating out of 10:</b>
+            <select name="rating">
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</option>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
+            <br><br>
+                <b>Would you try this recipe again</b>
+                <select option="yORn">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+
+                </select>
+            <br><br>
+            <b>Feedback:</b>
+            <br>
+            <textarea name="feedback">
+
+            </textarea>
+            <br><br>
+            <button type="button" id="submit-6">Submit</button>
+          </form>
+
+          <div id="recipe-6" class="card shadow-sm">
+
+            <div class="card-body">
+              <h3>Lemon Blueberry Tart</h3>
+              <img src="Recipe-6.webp" width="250" height="250" alt="" class="card-img-top">
+              <p class="card-text">There are 3 parts to this creamy lemon blueberry tart and each are prepared separately before bringing them all together.</p>
+              <ul>
+                <li>
+1 teaspoon cornstarch
+                </li>
+                <li>
+2 teaspoons lemon juice (or water)
+                </li>
+                <li>
+1 cup (190g) fresh or frozen blueberries (do not thaw)
+                </li>
+                <li>
+2 teaspoons granulated sugar
+                </li>
+                <li>
+1/2 cup (115g) unsalted butter, melted
+                </li>
+                <li>
+                1 teaspoon lemon zest (1 lemon)
+                </li>
+                <li>
+See full recipe for more...
+                </li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <button type="button" id="formButton-6" class="btn btn-sm btn-outline-secondary">Rate it</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" >
+
+          <form id="form-7">
+            <h1>Rate our Recipe</h1>
+
+            <br> <br>
+            <b>Rating out of 10:</b>
+            <select name="rating">
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</option>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
+            <br><br>
+                <b>Would you try this recipe again</b>
+                <select option="yORn">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+
+                </select>
+            <br><br>
+            <b>Feedback:</b>
+            <br>
+            <textarea name="feedback">
+
+            </textarea>
+            <br><br>
+            <button type="button" id="submit-7">Submit</button>
+          </form>
+
+          <div class="card shadow-sm">
+
+            <div id="recipe-7" class="card-body">
+              <h3>Cinnamon Roll Cake</h3>
+              <img src="Recipe-7.webp" width="250" height="250" alt="" class="card-img-top">
+              <p class="card-text">Learn how to make a beautiful, fluffy, and fun cinnamon roll cake using our kitchen-tested shortcut dough recipe.</p>
+              <ul>
+                <li>
+2 and 3/4 cups (344g) all-purpose flour (spoon & leveled), plus more as needed
+                </li>
+                <li>
+1/4 cup (50g) granulated sugar
+                </li>
+                <li>
+1 teaspoon salt
+                </li>
+                <li>
+2 and 1/4 teaspoons Platinum Yeast by Red Star (1 standard packet)*
+                </li>
+                <li>
+3/4 cup (180ml) whole milk
+                </li>
+                <li>
+See full recipe for more...
+                </li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <button type="button" id="formButton-7" class="btn btn-sm btn-outline-secondary">Rate it</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+
+          <form id="form-8">
+            <h1>Rate our Recipe</h1>
+
+            <br> <br>
+            <b>Rating out of 10:</b>
+            <select name="rating">
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</option>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
+            <br><br>
+                <b>Would you try this recipe again</b>
+                <select option="yORn">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+
+                </select>
+            <br><br>
+            <b>Feedback:</b>
+            <br>
+            <textarea name="feedback">
+
+            </textarea>
+            <br><br>
+            <button type="button" id="submit-8">Submit</button>
+          </form>
+
+          <div class="card shadow-sm">
+
+            <div id="recipe-8" class="card-body">
+
+
+              <h3>Banana Bread</h3>
+              <img src="Recipe-8.jpeg" width="250" height="250" alt="" class="card-img-top">
+              <p class="card-text">With its super-moist texture, buttery banana and brown sugar flavors, and incredibly soft crumb, this is the best ever banana bread recipe. </p>
+              <ul>
+                <li>
+                  2 cups (250g) all-purpose flour (spoon & leveled)
+
+                </li>
+                <li>
+1 teaspoon baking soda
+                </li>
+                <li>
+1/4 teaspoon salt
+                </li>
+                <li>
+1/2 teaspoon ground cinnamon
+                </li>
+                <li>
+1/2 cup (1 stick or 115g) unsalted butter, softened to room temperature
+                </li>
+                <li>
+See full recipe for more...
+                </li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <button type="button" id="formButton-8" class="btn btn-sm btn-outline-secondary">Rate it</button>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col">
+
+          <form id="form-9">
+            <h1>Rate our Recipe</h1>
+
+            <br> <br>
+            <b>Rating out of 10:</b>
+            <select name="rating">
+              <option value="10">10</option>
+              <option value="9">9</option>
+              <option value="8">8</option>
+              <option value="7">7</option>
+              <option value="6">6</option>
+              <option value="5">5</option>
+              <option value="4">4</option>
+              <option value="3">3</option>
+              <option value="2">2</option>
+              <option value="1">1</option>
+            </select>
+            <br><br>
+                <b>Would you try this recipe again</b>
+                <select option="yORn">
+          <option value="yes">
+            Yes
+          </option>
+          <option value="no">
+            No
+          </option>
+
+                </select>
+            <br><br>
+            <b>Feedback:</b>
+            <br>
+            <textarea name="feedback">
+
+            </textarea>
+            <br><br>
+            <button type="button" id="submit-9">Submit</button>
+          </form>
+
+          <div class="card shadow-sm">
+
+            <div id="recipe-9" class="card-body">
+              <h3>Lemon Blueberry Layer Cake</h3>
+              <img src="Recipe-9.jpeg" width="250" height="250" alt="" class="card-img-top">
+              <p class="card-text">Sunshine-sweet lemon layer cake dotted with juicy blueberries and topped with lush cream cheese frosting.</p>
+              <ul>
+                <li>
+1 cup (230g) unsalted butter, softened to room temperature
+                </li>
+                <li>
+1 and 1/4 cups (250g) granulated sugar
+                </li>
+                <li>
+1/2 cup (100g) packed light brown sugar
+                </li>
+                <li>
+4 large eggs, at room temperature
+                </li>
+                <li>
+1 Tablespoon pure vanilla extract
+                </li>
+                <li>
+                  2 Tablespoons lemon zest*
+                </li>
+                <li>
+See full recipe for more...
+                </li>
+              </ul>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+
+                  <button type="button" id="formButton-9" class="btn btn-sm btn-outline-secondary" >Rate it</button>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>

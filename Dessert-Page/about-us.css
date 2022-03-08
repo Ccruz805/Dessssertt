@@ -1,0 +1,34 @@
+.cover, h1, .intro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.cover {
+  width: 800px;
+  height: 400px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.intro {
+  width: 800px;
+  height: 250px;
+  font-size: 25px;
+  background-color: white;
+  padding-top: 15px;
+}
+
+body {
+  background-color: #FFB6C1;
+  text-align: center;
+}
+
+.text {
+  padding-top: 25px;
+}
+
+.words {
+  font-size: 50px;
+}
